@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Stone';
+    src: url(_fontes/Stone-Crusher-PERSONAL-USE-ONLY!.ttf);
+}
+@font-face{
+    font-family:'gostei' ;
+    src: url(_fontes/ghosthey-Regular.ttf);
+}
+
+
+body {
+    background-image:url(_img/parchment-1148173.jpg);
+    background-repeat: no-repeat;
+    padding: 20px auto;
+}
+
+div#corpo {
+    display: block;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    height: auto;
+    
+}
+
+h1 {
+    font-family:'Stone';
+    text-indent: 50px;
+    font-size: 5rem;
+    color: rgb(7, 15, 36);
+}
+
+h2{
+    font-family: "Stone";
+    font-size: 2rem;
+    text-indent: 10rem;
+}
+
+p {
+    font-family: 'gostei';
+    font-size: 1.3rem;
+    text-indent: 6rem;
+    line-height: 3px;
+}
+
+img{
+    position: absolute;
+    left: 800px;
+    top: 110px;
+}
