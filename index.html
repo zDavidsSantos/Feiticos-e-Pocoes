@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Misturas e Poções</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/_css/fundo.css">
+  <title>Feitiços & Poções</title>
 </head>
 <body>
-    <div id="corpo">
-        <h1>Poção Mata Fome</h1>
-        <h2>Ingredientes:</h2>
-        <p>1 Cabola grande</p>
-        <p>2 Tomates Maduros</p>
-        <p>2 Latas de sardinha</p>
-        <p>Massa Espaguate</p>
-        <p>Meia lata de Massa de Tomate</p>
+  <nav>
+    <ul>
+      <li><a href="/home.html">Home</a></li>
+      <li><a href="/feiticos.html">Feitiços</a></li>
+      <li><a href="/pocoes.html">Poções</a></li>
+      <li><a href="/curas.html">Curas</a></li>
+      <li><a href="/chas.html">Chás</a></li>
+    </ul>
+  </nav>
+  <style>
+    nav {
+      background-color: #8B4513; /* Rustic brown background */
+      padding: 10px;
+      border: 2px solid #5A2D0C; /* Darker brown border */
+      border-radius: 5px;
+    }
 
-        <h2>Temperos</h2>
-        <p>Sal a Gosto </p>
-        <p>Curry</p>
-        <p>Açafrao</p>
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
 
-        <h2>Modo de Preparo</h2>
-        <p>Coloque 4 Litros de água numa panela Grande</p>
-        <p>Adicione 2 colheres de óleo de soja e feche a tampa.</p>
-        <p>Em outra Panela separe 2 Colheres de sopa de oleo de soja, corte a cebola </p>
-        <p>bem picadinha e misture na panela, corte os tomates e misture junto a cebola, misturando tudo.</p>
+    nav ul li {
+      margin: 0 10px;
+    }
 
-        <div id="caldeirao">
-            <img src="_img/caldeira.gif" alt="">
-        </div>
-    </div>
-        
-    
+    nav ul li a {
+      text-decoration: none;
+      color: #FFF8DC; /* Antique white text */
+      font-family: 'Georgia', serif; /* Rustic font style */
+      font-size: 18px;
+      padding: 5px 10px;
+      border: 1px solid #5A2D0C; /* Border for a rustic touch */
+      border-radius: 3px;
+      background-color: #A0522D; /* Saddle brown background */
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #FFF8DC; /* Antique white on hover */
+      color: #8B4513; /* Rustic brown text on hover */
+    }
+  </style>
+  
 </body>
 </html>
