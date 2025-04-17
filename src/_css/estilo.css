@@ -9,7 +9,7 @@
 }
 
 
-body {
+div#receita-macarrao {
     background-image:url(_img/parchment-1148173.jpg);
     background-repeat: no-repeat;
     padding: 20px auto;

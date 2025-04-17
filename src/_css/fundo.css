@@ -29,4 +29,102 @@ body::after {
     50% { background-position: 100% 100%; }
     100% { background-position: 0% 0%; }
 }
+/* Estilo para o título */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: #520606; /* Ajuste para contraste com o fundo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
+/* Estilo para o parágrafo */
+p {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px auto;
+    color: #520606; /* Ajuste para contraste com o fundo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para o botão */
+
+button {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #520606; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #8B0000; /* Cor de fundo do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Estilo para o link */
+
+a {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    color: #520606; /* Ajuste para contraste com o fundo */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #8B0000; /* Cor do link ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Estilo para o rodapé */
+
+footer {
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20px;
+    color: #520606; /* Ajuste para contraste com o fundo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para a tabela */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo da tabela */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #520606; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff; /* Cor do texto do cabeçalho da tabela */
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo das células da tabela */
+    color: #520606; /* Cor do texto das células da tabela */
+}
+
+/* Estilo para os links da tabela */
+
+a.table-link {
+    color: #520606; /* Cor do link */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
