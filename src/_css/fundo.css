@@ -4,13 +4,13 @@ body{
 
 img#livro{
     position: absolute;
-    left: 280px;
+    left: 20%;
     top: 120px;
 }
 
 img#livro{
-    width: 800px;
-    height: 400px;
+    width: 60%;
+    height: 70%;
     border-radius: 20px;
 }
 
